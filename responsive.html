@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+	<title>Get Shit Done</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Get Shit Done. A simple productivity tool.">
+  	<meta name="author" content="Jae Riwa">
+	<!-- jQuery files -->
+	<script src="jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+	<script src="jquery-touch.js"></script>
+	<script src="js.js" /></script>
+	<!-- font links -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<!-- css stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div id="container">
+<h1>Get Shit Done</h1>
+<div id="content">
+		<p>
+		Welcome to <span class="emp">Get Shit Done</span> a very basic, easy to use to do list. Simply use the below
+		field to enter in your task, then press the 'x' to delete when complete. 
+		</p>
+		<p>
+		You can reorder the list in terms of priority, and move things over to the most important shit column
+		as per your necessity.
+		</p>
+		<p>
+			<form>
+				<input type="text" class="input" name="toDo"/>
+			</form>
+			<span id="button">Add!</span>
+		</p>
+
+	<div class="col_1">
+		<h2>Shit for Today - <span class="date"> </span></h2>
+		<div id="list" class="connectedSortable">
+		<ul>
+	
+		</ul>
+		</div>
+	</div>
+	<div class="col_2">
+		<h3>Most Important Shit</h3>
+		<div id="list2" class="connectedSortable">
+		<ul>
+	
+		</ul>
+		</div>	
+	</div>
+<div class="clearfix">
+	<div class="col_1">
+		<h2>Tomorrow's Shit - <span class="tdate"> </span></h2>
+		<div id="list3" class="connectedSortable">
+		<ul>
+	
+		</ul>
+		</div>
+	</div>
+	<div class="col_2">
+		<h2>Future Shit</h2>
+		<div id="list4" class="connectedSortable">
+		<ul>
+	
+		</ul>
+		</div>	
+	</div>
+</div>
+</div>
+	<footer>
+	<p>
+		Designed and coded by Jae Riwa of <a href="http://jamie-marie.info">JAMIE&amp;marie</a>. 
+		<a href="mailto:designer@jamie-marie.info">Contact</a>.
+	</p>
+	</footer>
+
+</div>
+
+</body>
+</html>
